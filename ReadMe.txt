@@ -1,6 +1,38 @@
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+A Linguagem A é definida a partir da Linguagem C, as características da
+A são:
+▪ Possui apenas os tipos de dados int e string;
+▪ Não possui laços de repetição;
+▪ Possui a instrução if-else, tal qual a Linguagem C;
+▪ Cada função da A tem no máximo dois parâmetros;
+▪ As demais características são idênticas ao C, inclusive a sintaxe;
+
+
+analisador semântico para a Linguagem A. O analisador semântico deve verificar:
+I. Se as operações usam tipos compatíveis;
+II. Se as variáveis (e funções) estão sendo usadas dentro de seu escopo; e
+III. Se as variáveis (e funções) estão sendo usadas sem serem declaradas.
+
+Entrada
+A entrada é composta por um código fonte de um programa qualquer escrito em A
+Saída
+Para cada entrada, seu programa deve produzir uma mensagem de “Sucesso” ou um
+erro semântico.
+Exemplo
+Entrada
+int fun ( int a , int b ) {
+return a + b ;
+}
+int main ( ) {
+	int a = 3 ;
+	int b = 5 ;
+	int c = a + b ;
+	return c + fun ( a , b ) ;
+}
+Saída
+Sucesso
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 				EXECUTANDO COM PYTHON
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 								No terminal digite python3 e logo depois
 
 from analisador_semantico.py import *
