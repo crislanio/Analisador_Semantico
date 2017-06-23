@@ -30,5 +30,3 @@ int func ( int a , string a )
     ---------------------------------------------------------------------------------------------------------
     ---------------------------------------------------------------------------------------------------------
 POR ÚLTIMO E NÃO MENOS IMPORTANTE, FOI IMPLEMENTADO A SOBRECARGA MESMO SABENDO QUE O c NÃO TEM.
-
-Desde já espero que seja levado em consideração o máximo de acertos dos testes com essas observações. ATT
