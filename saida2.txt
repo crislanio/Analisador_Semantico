@@ -1,0 +1,23 @@
+string c = "s" ;
+string Lun ( string x44 ) {
+	dd = Lun ( 3 , 4 ) ;
+	int v2 = 43 + v ;
+	int v  = 3;
+	return x44 ;
+}
+int Lun ( int x4 , int x5 ) {
+	return x4 + x5 ;
+}
+string Lun ( ) {
+	return  c ;
+}
+int Pun ( ) {
+	int ff = 2 ; 
+	return ff ;
+}
+string Pun ( ) {
+	return c ;
+}
+string Xim ( ) {
+	return c ; 
+}

@@ -1,0 +1,34 @@
+nota sobre o trabalho:
+
+O trabalho possui algumas inconsistências: 
+Para verificar o caso de uma variável ser usada antes de ser declarada em alguns casos dá erro como:
+
+# **** ESQUECI O CASO DE TER UMA PARÂMETRO DE FUNÇÃO COM O MESMO NOME DE UM RETORNO DE UMA FUNÇÃO 
+# exemplo:  o a aparece no indice (2, 2) (0, 3)
+# A variável  a  foi declarada antes de ser usada:  a  tem índice  (2, 2)  a declaração dela tem índice  (5, 0)
+# False
+
+# int fun ( int a , int b ) {
+	
+# 	return a + b ;
+# }
+# int main ( ) {
+# 	int a = 3 ;
+    
+    ---------------------------------------------------------------------------------------------------------
+Nome de parâmetros de funções que sejam idênticos a declarações de variáveis dá erro em alguns casos.
+Verificar se o retorno da função é o mesmo do tipo dá função dá erro de índice em alguns casos... *(NÃO SEI O MOTIVO) (sendo assim o analisador está sem esse caso, mas ele foi implementado)
+
+por último não foi feito casos como:
+ter uma variável com tipos diferentes e mesmo nome:
+Ex:
+int a = 3 ;
+string a = 3 ;
+FOI TRATADO SOMENTE ESSE PROBLEMA EM PARÂMETROS DE FUNÇÕES 
+Ex:
+int func ( int a , string a )
+    ---------------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------------
+POR ÚLTIMO E NÃO MENOS IMPORTANTE, FOI IMPLEMENTADO A SOBRECARGA MESMO SABENDO QUE O c NÃO TEM.
+
+Desde já espero que seja levado em consideração o máximo de acertos dos testes com essas observações. ATT
